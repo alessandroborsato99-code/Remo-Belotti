@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Remo Belotti - Idraulico professionista a Temù e Val Camonica. Ristrutturazioni, caldaie, climatizzazione e pronto intervento 24h.">
+    <title>Remo Belotti | Idraulico Temù - Val Camonica</title>
+
+    <!-- Fonts -->
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@300,400,500,600,700&f[]=cabinet-grotesk@400,500,700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="#" class="header__logo">Remo Belotti</a>
+
+            <nav class="header__nav">
+                <a href="#servizi" class="nav-link">Servizi</a>
+                <a href="#chi-sono" class="nav-link">Chi Sono</a>
+                <a href="#zona" class="nav-link">Zona</a>
+                <a href="#contatti" class="nav-link">Contatti</a>
+            </nav>
+
+            <a href="#contatti" class="header__cta">Preventivo</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <nav class="mobile-menu__nav">
+            <a href="#servizi" class="mobile-menu__link">Servizi</a>
+            <a href="#chi-sono" class="mobile-menu__link">Chi Sono</a>
+            <a href="#zona" class="mobile-menu__link">Zona</a>
+            <a href="#contatti" class="mobile-menu__link">Contatti</a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero__media">
+                <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1920&q=80" alt="Lavori idraulici">
+                <div class="hero__overlay"></div>
+            </div>
+
+            <div class="hero__content">
+                <span class="hero__label reveal">Idraulico in Val Camonica</span>
+                <h1 class="hero__title reveal">
+                    <span class="accent">Soluzioni idrauliche</span>
+                    <span>Remo Belotti</span>
+                </h1>
+                <p class="hero__subtitle reveal">
+                    Da oltre 20 anni al servizio della Val Camonica con professionalità, competenza e disponibilità.
+                </p>
+                <div class="hero__cta reveal">
+                    <a href="#contatti" class="btn btn--primary">
+                        <span>Richiedi preventivo</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#servizi" class="btn btn--outline">
+                        <span>Scopri i servizi</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero__scroll">
+                <span class="hero__scroll-text">Scroll</span>
+                <div class="hero__scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="stats">
+            <div class="container">
+                <div class="stats__grid">
+                    <div class="stat reveal">
+                        <span class="stat__number">20+</span>
+                        <span class="stat__label">Anni di esperienza</span>
+                    </div>
+                    <div class="stat reveal">
+                        <span class="stat__number">500+</span>
+                        <span class="stat__label">Clienti soddisfatti</span>
+                    </div>
+                    <div class="stat reveal">
+                        <span class="stat__number">24h</span>
+                        <span class="stat__label">Pronto intervento</span>
+                    </div>
+                    <div class="stat reveal">
+                        <span class="stat__number">100%</span>
+                        <span class="stat__label">Garanzia lavori</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services" id="servizi">
+            <div class="container">
+                <div class="services__header reveal">
+                    <span class="section-label">Cosa faccio</span>
+                    <h2 class="section-title">I Miei Servizi</h2>
+                </div>
+
+                <div class="services__grid reveal-stagger">
+                    <a href="#contatti" class="service-card reveal">
+                        <div class="service-card__media">
+                            <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80" alt="Ristrutturazione bagni">
+                        </div>
+                        <div class="service-card__content">
+                            <span class="service-card__number">01</span>
+                            <h3 class="service-card__title">Ristrutturazione Bagni</h3>
+                            <p class="service-card__text">Interventi completi di ristrutturazione bagni e cucine: pavimenti, sanitari e tinteggiatura.</p>
+                            <span class="service-card__link">
+                                Richiedi info
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="#contatti" class="service-card reveal">
+                        <div class="service-card__media">
+                            <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800&q=80" alt="Caldaie e scaldabagni">
+                        </div>
+                        <div class="service-card__content">
+                            <span class="service-card__number">02</span>
+                            <h3 class="service-card__title">Caldaie e Scaldabagni</h3>
+                            <p class="service-card__text">Installazione di caldaie murali a condensazione, manutenzione e riparazioni.</p>
+                            <span class="service-card__link">
+                                Richiedi info
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="#contatti" class="service-card reveal">
+                        <div class="service-card__media">
+                            <img src="img/climatizzazione.png" alt="Climatizzazione">
+                        </div>
+                        <div class="service-card__content">
+                            <span class="service-card__number">03</span>
+                            <h3 class="service-card__title">Climatizzazione</h3>
+                            <p class="service-card__text">Impianti di climatizzazione delle migliori marche con Wi-Fi integrato.</p>
+                            <span class="service-card__link">
+                                Richiedi info
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="#contatti" class="service-card reveal">
+                        <div class="service-card__media">
+                            <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80" alt="Impianti basso consumo">
+                        </div>
+                        <div class="service-card__content">
+                            <span class="service-card__number">04</span>
+                            <h3 class="service-card__title">Impianti Basso Consumo</h3>
+                            <p class="service-card__text">Pannelli solari, pompe di calore e caldaie a condensazione per risparmiare energia.</p>
+                            <span class="service-card__link">
+                                Richiedi info
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="#contatti" class="service-card reveal">
+                        <div class="service-card__media">
+                            <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800&q=80" alt="Impianti idraulici">
+                        </div>
+                        <div class="service-card__content">
+                            <span class="service-card__number">05</span>
+                            <h3 class="service-card__title">Impianti Idraulici</h3>
+                            <p class="service-card__text">Installazione, manutenzione e riparazione di tubature, rubinetteria e impianti completi.</p>
+                            <span class="service-card__link">
+                                Richiedi info
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="#contatti" class="service-card service-card--emergency reveal">
+                        <div class="service-card__media">
+                            <img src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=800&q=80" alt="Pronto intervento 24h">
+                        </div>
+                        <div class="service-card__content">
+                            <span class="service-card__number">06</span>
+                            <h3 class="service-card__title">Servizio 24 ore su 24</h3>
+                            <p class="service-card__text">Emergenze idrauliche? Disponibile 7 giorni su 7, sempre quando serve.</p>
+                            <span class="service-card__link">
+                                Richiedi info
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about" id="chi-sono">
+            <div class="container">
+                <div class="about__grid">
+                    <div class="about__content reveal">
+                        <span class="section-label">Chi sono</span>
+                        <h2 class="about__title">Remo Belotti</h2>
+                        <p class="about__text">
+                            Sono nato e cresciuto a Temù, nel cuore della Val Camonica. Ho imparato questo mestiere da mio padre, che mi ha trasmesso non solo le competenze tecniche ma soprattutto l'importanza del rapporto di fiducia con il cliente.
+                        </p>
+                        <p class="about__text">
+                            Oggi porto avanti quella tradizione con orgoglio, unendo l'esperienza del passato alle tecnologie moderne. La mia forza è la conoscenza del territorio e la disponibilità per ogni emergenza.
+                        </p>
+                        <a href="#contatti" class="btn btn--dark">
+                            <span>Contattami</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="about__image reveal">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Remo Belotti">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Zone -->
+        <section class="zone" id="zona">
+            <div class="container">
+                <div class="zone__grid">
+                    <div class="zone__content reveal">
+                        <span class="section-label">Dove opero</span>
+                        <h2 class="section-title">Val Camonica</h2>
+                        <p class="zone__text">
+                            Opero principalmente a Temù e raggiungo tutte le località della valle. Conosco il territorio e sono sempre pronto ad intervenire.
+                        </p>
+                        <div class="zone__list">
+                            <span class="zone__tag zone__tag--main">Temù</span>
+                            <span class="zone__tag">Ponte di Legno</span>
+                            <span class="zone__tag">Vezza d'Oglio</span>
+                            <span class="zone__tag">Edolo</span>
+                            <span class="zone__tag">Incudine</span>
+                            <span class="zone__tag">Monno</span>
+                            <span class="zone__tag">Vione</span>
+                            <span class="zone__tag">+ altre</span>
+                        </div>
+                    </div>
+                    <div class="zone__image reveal">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80" alt="Val Camonica">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contatti">
+            <div class="container">
+                <div class="contact__grid">
+                    <div class="contact__content reveal">
+                        <span class="section-label">Contattami</span>
+                        <h2 class="contact__title">Richiedi un preventivo gratuito</h2>
+                        <p class="contact__text">
+                            Compila il form per richiedere informazioni o un preventivo. Ti risponderò entro 24 ore.
+                        </p>
+                        <div class="contact__info">
+                            <div class="contact__info-item">
+                                <span class="contact__info-label">Sede</span>
+                                <span class="contact__info-value">Temù (BS), Val Camonica</span>
+                            </div>
+                            <div class="contact__info-item">
+                                <span class="contact__info-label">Orari</span>
+                                <span class="contact__info-value">Lun-Ven 8-18, Sab 8-12</span>
+                            </div>
+                            <div class="contact__info-item">
+                                <span class="contact__info-label">Emergenze</span>
+                                <span class="contact__info-value">Disponibile 24h</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__form reveal">
+                        <form id="contactForm" class="form">
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <label class="form__label" for="nome">Nome</label>
+                                    <input type="text" id="nome" name="nome" class="form__input" required>
+                                </div>
+                                <div class="form__group">
+                                    <label class="form__label" for="cognome">Cognome</label>
+                                    <input type="text" id="cognome" name="cognome" class="form__input" required>
+                                </div>
+                            </div>
+                            <div class="form__group">
+                                <label class="form__label" for="email">Email</label>
+                                <input type="email" id="email" name="email" class="form__input" required>
+                            </div>
+                            <div class="form__group">
+                                <label class="form__label" for="servizio">Servizio</label>
+                                <select id="servizio" name="servizio" class="form__select" required>
+                                    <option value="">Seleziona...</option>
+                                    <option value="ristrutturazione">Ristrutturazione bagno</option>
+                                    <option value="caldaie">Caldaie e scaldabagni</option>
+                                    <option value="climatizzazione">Climatizzazione</option>
+                                    <option value="basso-consumo">Impianti basso consumo</option>
+                                    <option value="emergenza">Pronto intervento 24h</option>
+                                    <option value="altro">Altro</option>
+                                </select>
+                            </div>
+                            <div class="form__group">
+                                <label class="form__label" for="messaggio">Messaggio</label>
+                                <textarea id="messaggio" name="messaggio" class="form__textarea" required></textarea>
+                            </div>
+                            <div class="form__group">
+                                <label class="form__checkbox">
+                                    <input type="checkbox" name="privacy" required>
+                                    <span>Accetto la Privacy Policy</span>
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn--dark form__submit">
+                                <span>Invia richiesta</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <p class="footer__logo">Remo Belotti</p>
+                    <p class="footer__tagline">Idraulico professionista a Temù e in tutta la Val Camonica. Qualità, affidabilità e disponibilità 24 ore su 24.</p>
+                </div>
+                <div class="footer__nav">
+                    <h4 class="footer__nav-title">Link</h4>
+                    <ul class="footer__nav-list">
+                        <li><a href="#servizi" class="footer__nav-link">Servizi</a></li>
+                        <li><a href="#chi-sono" class="footer__nav-link">Chi Sono</a></li>
+                        <li><a href="#zona" class="footer__nav-link">Zona</a></li>
+                        <li><a href="#contatti" class="footer__nav-link">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer__nav">
+                    <h4 class="footer__nav-title">Servizi</h4>
+                    <ul class="footer__nav-list">
+                        <li><a href="#servizi" class="footer__nav-link">Ristrutturazione Bagni</a></li>
+                        <li><a href="#servizi" class="footer__nav-link">Caldaie e Scaldabagni</a></li>
+                        <li><a href="#servizi" class="footer__nav-link">Climatizzazione</a></li>
+                        <li><a href="#servizi" class="footer__nav-link">Emergenze 24h</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 Remo Belotti. Tutti i diritti riservati.</p>
+                <p>P.IVA: XXXXXXXXXXX</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
